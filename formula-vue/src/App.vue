@@ -26,9 +26,9 @@
 </div>
   </div>
 <h1 :style="{color:color}">Change la couleurs</h1>
-<Couleur msg='bleu' v-on:click="color='noir'"/>
-<Couleur msg='noir' v-on:click="color='yellow'"/>
-<Couleur msg='jaune' v-on:click="color='bleu'"/>
+<Couleur msg='black' v-on:click="color='black'"/>
+<Couleur msg='jaune' v-on:click="color='yellow'"/>
+<Couleur msg='bleu' v-on:click="color='blue'"/>
 </template>
 
 <script>
